@@ -337,11 +337,11 @@
 
         Ctrl+_Num_ {
             bindings = <
-                  &trans                &trans
-&kp BACKSPACE     &kp LS(NUMBER_1)      &kp SLASH              &kp LS(SLASH)  &kp PIPE       &kp TAB     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp LS(NUMBER_6)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp MINUS      &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&kp LS(N5)        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN    &kp SEMICOLON  &kp COMMA   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
-&trans            &trans                &trans                 &trans         &trans         &trans      &trans        &trans        &trans        &trans
+                  &trans             &trans
+&kp BACKSPACE     &kp LS(NUMBER_1)   &kp SLASH             &kp LS(SLASH)     &moC           &kp TAB     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
+&kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SQT           &kp MINUS      &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &moI
+&kp LS(N5)        &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp SEMICOLON  &kp COMMA   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
+&trans            &trans             &trans                &trans            &trans         &trans      &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&arrow_left_right>;
@@ -383,11 +383,11 @@
 
         layer_5 {
             bindings = <
-        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                       &trans        &trans
+&kp TAB                &kp N7        &kp N8        &kp N9        &kp UNDERSCORE  &none    &kp LC(PG_UP)   &kp UP_ARROW    &kp LC(PAGE_DOWN)  &kp LC(TAB)
+&kp RS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RS(COLON)   &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LC(LS(TAB))
+&kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH       &none    &kp LA(TAB)     &kp F2          &kp ESCAPE         &kp F4
+&kp ESCAPE             &kp PERIOD    &kp COMMA     &trans        &trans          &trans   &trans          &trans          &trans             &trans
             >;
         };
     };
