@@ -326,7 +326,7 @@
         Default_JIS {
             bindings = <
          &tp3          &tp4
-&tp1     &kp L         &kp U         &kp MINUS  &moI             &kp F        &kp W        &kp R     &kp Y  &kp P
+&tp1     &kp L         &kp U         &kp MINUS  &kp DEL          &kp F        &kp W        &kp R     &kp Y  &kp P
 &kp E    &kp I         &kp A         &kp O      &kp COMMA        &kp K        &kp T        &kp N     &kp S  &kp H
 &kp Z    &kp X         &kp C         &kp V      &kp PERIOD       &kp G        &kp D        &kp M     &kp J  &kp B
 &kp TAB  &kp LEFT_WIN  &kp LEFT_ALT  &tp2       &lt 2 BACKSPACE  &lt 1 SPACE  &lt 5 ENTER  &kp RALT  &tp2   &kp LS(ESCAPE)
