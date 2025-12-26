@@ -4,78 +4,80 @@ layers:
   - '&tp3'
   - '&tp4'
   - '&tp1'
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
   - L
+  - U
   - '-'
+  - {t: INT1, s: Sft+0x87}
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - E
+  - I
+  - A
+  - O
+  - ','
+  - K
+  - T
+  - N
+  - S
+  - H
   - Z
   - X
   - C
   - V
-  - B
-  - N
-  - M
-  - ','
   - .
-  - /
-  - '&tp2'
+  - G
+  - D
+  - M
+  - J
+  - B
+  - TAB
   - LEFT WIN
   - LEFT ALT
+  - '&tp2'
+  - {t: BACKSPACE, h: '5'}
   - {t: SPACE, h: Ctrl+_Num_}
-  - BACKSPACE
-  - DEL
   - {t: ENTER, h: Shift+_Mouse_}
   - RALT
   - '&tp2'
-  - Sft+INTERNATIONAL 1
+  - Sft+ESCAPE
   Ctrl+_Num_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - PRINTSCREEN
-  - Ctl+A
-  - Ctl+S
-  - Ctl+D
-  - Ctl+F
-  - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - DELETE
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - UP ARROW
-  - KP DOT
+  - BACKSPACE
+  - Sft+1
+  - /
+  - Sft+/
+  - {t: INT3, s: Sft+0x89}
+  - TAB
+  - '7'
+  - '8'
+  - '9'
+  - BACKSPACE
+  - Sft+6
+  - ']'
+  - \
+  - ''''
+  - '-'
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - {t: INT1, s: Sft+0x87}
+  - Sft+5
+  - '*'
+  - (
+  - '['
+  - ;
+  - ','
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,9 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
   Shift+_Mouse_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,7 +141,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&bootloader'
   - ''
   - ''
   - ''
@@ -174,6 +174,49 @@ layers:
   - ''
   to_ALT: [Sft+TAB, TAB, '', '', '', F4, '', '', '', '', PAGE UP, '', '', '', '', '', '', '', '', '', PAGE DOWN, '', '', '', '', '', '', '', '', '', UP, '', '', '',
     '', '', '', '', '', LEFT, DOWN, RIGHT]
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - '7'
+  - '8'
+  - '9'
+  - _
+  - ''
+  - Ctl+PG UP
+  - UP ARROW
+  - Ctl+PAGE DOWN
+  - Ctl+TAB
+  - Sft+"
+  - '4'
+  - '5'
+  - '6'
+  - 'Sft+:'
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Ctl+Sft+TAB
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - ''
+  - Alt+TAB
+  - F2
+  - ESCAPE
+  - F4
+  - ESCAPE
+  - .
+  - ','
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [36, 35]
   k: setting
