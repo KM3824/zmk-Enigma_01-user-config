@@ -7,7 +7,7 @@ layers:
   - L
   - U
   - '-'
-  - {t: INT1, s: Sft+0x87}
+  - DEL
   - F
   - W
   - R
