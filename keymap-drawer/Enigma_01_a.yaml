@@ -37,9 +37,9 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - '&tp2'
-  - {t: BACKSPACE, h: '5'}
+  - {t: BACKSPACE, h: Shift+_Mouse_}
   - {t: SPACE, h: Ctrl+_Num_}
-  - {t: ENTER, h: Shift+_Mouse_}
+  - {t: ENTER, h: '5'}
   - RALT
   - '&tp2'
   - Sft+ESCAPE
@@ -95,20 +95,20 @@ layers:
   - Sft+4
   - Sft+5
   - Sft+6
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - Sft+0
+  - Sft+Alt+LEFT ARROW
+  - '&mmv MOVE_UP'
+  - Alt+RIGHT ARROW
+  - ''
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - Alt+TAB
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
   - F11
   - F12
   - ''
@@ -116,19 +116,19 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mmv MOVE_UP'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   setting:
   - BT CLR
   - BT CLR ALL
@@ -211,9 +211,9 @@ layers:
   - .
   - ','
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
