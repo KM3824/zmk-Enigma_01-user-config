@@ -277,7 +277,7 @@
         page_up_down: behavior_sensor_rotate_page_up_ {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&kp PAGE_UP>, <&kp PAGE_DOWN>;
+            bindings = <&kp PAGE_DOWN>, <&kp PAGE_UP>;
 
             tap-ms = <20>;
         };
