@@ -89,39 +89,39 @@ layers:
   Shift+_Mouse_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - TAB
+  - '7'
+  - '8'
+  - '9'
   - '&tp2'
   - ''
   - Sft+Alt+LEFT ARROW
   - '&mmv MOVE_UP'
   - Alt+RIGHT ARROW
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Sft+"
+  - '4'
+  - '5'
+  - '6'
   - ''
   - Alt+TAB
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&mkp MB1'
-  - ''
-  - ''
-  - ''
-  - ''
+  - LCTRL
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - ''
   - ''
   - ''
   - Sft+Ctl+TAB
   - Ctl+TAB
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - .
+  - ','
   - {t: ▽, type: trans}
   - {type: held}
   - '&mkp MB1'
