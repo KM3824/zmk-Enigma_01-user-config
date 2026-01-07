@@ -350,10 +350,10 @@
         Shift+_Mouse_ {
             bindings = <
                        &trans        &trans
-&kp TAB                &kp N7        &kp N8        &kp N9        &tp2    &none        &kp LA(LEFT_ARROW)  &mmv MOVE_UP     &kp LA(RIGHT_ARROW)  &none
-&kp LS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none   &kp LA(TAB)  &mmv MOVE_LEFT      &mmv MOVE_DOWN   &mmv MOVE_RIGHT      &kp LCTRL
-&kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &none        &none               &kp LS(LC(TAB))  &kp LC(TAB)          &none
-&kp ESCAPE             &kp PERIOD    &kp COMMA     &trans        &trans  &mkp MB1     &mkp MB2            &trans           &trans               &trans
+&kp TAB                &kp N7        &kp N8        &kp N9        &tp2            &none        &kp LA(LEFT_ARROW)  &mmv MOVE_UP     &kp LA(RIGHT_ARROW)  &none
+&kp LS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &msc SCRL_UP    &kp LA(TAB)  &mmv MOVE_LEFT      &mmv MOVE_DOWN   &mmv MOVE_RIGHT      &kp LCTRL
+&kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &msc SCRL_DOWN  &none        &none               &kp LS(LC(TAB))  &kp LC(TAB)          &none
+&kp ESCAPE             &kp PERIOD    &kp COMMA     &trans        &trans          &mkp MB1     &mkp MB2            &trans           &trans               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
