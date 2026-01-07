@@ -103,7 +103,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - ''
+  - '&msc SCRL_UP'
   - Alt+TAB
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -113,7 +113,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - ''
+  - '&msc SCRL_DOWN'
   - ''
   - ''
   - Sft+Ctl+TAB
