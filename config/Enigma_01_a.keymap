@@ -293,6 +293,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "shift_ctrl";
             #binding-cells = <0>;
+            tapping-term-ms = <230>;
             bindings = <&kp LSHIFT>, <&kp LCTRL>;
         };
 
